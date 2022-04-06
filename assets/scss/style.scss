@@ -1,0 +1,43 @@
+@function em($n) {
+    @return $n / 16 + 'em';
+  }
+
+
+
+@font-face {
+    font-family: Robot;
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Robot;
+    src: url("../fonts/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: RobotItalic;
+    src: url("../fonts/Roboto-Italic.ttf");
+    
+}
+
+
+@font-face {
+    font-family: Robot;
+    src: url("../fonts/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+
+
+body{
+    font-family: Robot;
+   
+}
+
+.btn{
+    background-color: $primary-btn !important;
+    color: white !important;
+    border-radius: 50px !important;
+}
+

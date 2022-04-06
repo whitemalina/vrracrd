@@ -1,0 +1,30 @@
+{
+  "name": "cardVR",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "aframe": "^1.2.0",
+    "aframe-event-set-component": "^5.0.0",
+    "aframe-look-at-component": "^1.0.0",
+    "aframe-slice9-component": "^1.0.0",
+    "animate.css": "^4.1.1",
+    "core-js": "^3.15.1",
+    "notyf": "^3.10.0",
+    "nuxt": "^2.15.7",
+    "qrcode": "^1.5.0",
+    "qrcode.vue": "^1.7.0",
+    "reset-css": "^5.0.1",
+    "vue-qr": "^3.2.4",
+    "vuetify": "^2.5.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.1"
+  }
+}
